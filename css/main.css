@@ -1,0 +1,220 @@
+body {
+    background-color: #343a40;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+.bg-dark{
+    background-color: #1d2227 !important;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+#cityForm {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-group {
+    width: calc(100% / 3 * 3);
+}
+
+#weatherResults {
+    display: none;
+}
+
+.weather-card {
+    margin: 0;
+    padding: 0;
+    background-color: #495057;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0;
+    height: 100%;
+    text-align: center;
+}
+
+.weather-icon {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 10px auto;
+}
+
+.icon-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.icon-text i {
+    margin-right: 8px;
+}
+
+.card-body {
+    flex-grow: 1;
+    padding: 20px 10px;
+}
+
+.card-body p {
+    margin: 10px 0;
+}
+
+.card-header {
+    background-color: #3a3f44;
+    color: #ffffff;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    height: 80px;
+}
+
+.card-header .day {
+    text-align: left;
+}
+
+.card-header .date {
+    text-align: right;
+}
+
+.city-name {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.first-card {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    text-align: left;
+}
+
+.first-card .temperature {
+    font-size: 4rem;
+}
+
+.first-card .weather-icon {
+    width: 80px;
+    height: 80px;
+    margin: 10px 0;
+}
+
+.first-card .icon-text {
+    justify-content: flex-start;
+}
+
+.middle-card {
+    border-radius: 0;
+}
+
+.last-card {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.footer {
+    background-color: #1d2227;
+    padding: 20px 0;
+    color: #ffffff;
+}
+
+.footer .input-group {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer .social-icon {
+    color: #ffffff;
+    margin-right: 15px;
+    font-size: 1.5rem;
+    transition: all 0.25s;
+}
+
+.footer .social-icon:hover {
+    color: #2b9348;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-brand {
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #2b9348;
+    border-color: #2b9348;
+    border-radius: 50px;
+    transition: all 0.25s;
+}
+
+.btn-primary:hover {
+    background-color: #227441;
+    border-color: #227441;
+}
+
+.form-control {
+    border-radius: 50px;
+}
+
+.form-control:focus {
+    border-color: #2b9348;
+    box-shadow: 0 0 0 0.2rem rgba(43, 147, 72, 0.25);
+}
+
+.input-group-append .btn-primary {
+    background-color: #2b9348;
+    border-color: #2b9348;
+    border-radius: 50px;
+    transform: all 0.25s;
+}
+
+.input-group-append .btn-primary:hover {
+    background-color: #227441;
+    border-color: #227441;
+}
+
+.contact-container {
+    padding: 40px 0;
+    color: #ffffff;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+.contact-info i {
+    color: #2b9348;
+    margin-right: 10px;
+}
+
+.active {
+    background-color: rgb(22, 93, 42) !important;
+    border-radius: 50px;
+}
+
+.willEnable {
+    background-color: rgba(22, 93, 42, 0) !important;
+    border-radius: 50px;
+    transition: all 0.25s;
+}
+
+.willEnable:hover {
+    background-color: rgba(22, 93, 42, 0.5) !important;
+}
